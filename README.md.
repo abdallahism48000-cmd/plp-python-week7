@@ -1,0 +1,10 @@
+# Week 7 Assignment: Hands-On Lab — Shopping List Manager
+
+## File Descriptions
+- **list_warmup.py**: Demonstrates basic list creation, index access, appending, removing elements, and checking length.
+- **shopping_list.py**: An interactive command-line shopping list manager that lets users add, remove, view, and exit safely with membership checks.
+- **list_report.py**: Generates a numbered summary report, counts items longer than 4 characters, and finds the longest item name using custom loop logic.
+
+## Reflection
+Why is it safer to check `in` before calling `.remove()`?
+Checking if an item exists using the `in` operator prevents Python from throwing a `ValueError` if the user tries to remove an item that isn't present in the list. It ensures the program handles unexpected user input smoothly without crashing.
